@@ -1,0 +1,11 @@
+additionalAttributes:
+  email: api-backend-4ad0@gtm-kqqwvx2-zgi2z.iam.gserviceaccount.com
+  uniqueId: '103295229053773109937'
+assetType: iam.googleapis.com/ServiceAccount
+displayName: API Backend service account
+name: //iam.googleapis.com/projects/gtm-kqqwvx2-zgi2z/serviceAccounts/api-backend-4ad0@gtm-kqqwvx2-zgi2z.iam.gserviceaccount.com
+parentAssetType: cloudresourcemanager.googleapis.com/Project
+parentFullResourceName: //cloudresourcemanager.googleapis.com/projects/gtm-kqqwvx2-zgi2z
+project: projects/1049906149317
+state: ENABLED
+shanflet68@cloudshell:~ (gtm-kqqwvx2-zgi2z)

@@ -1,0 +1,7 @@
+const analytics::Parameter kLoginParameters[] = {
+  analytics::Parameter(analytics::kParameterMethod, method),
+};
+analytics::LogEvent(
+  analytics::kEventLogin, kLoginParameters,
+  sizeof(kLoginParameters) /
+  sizeof(kLoginParameters[0]));

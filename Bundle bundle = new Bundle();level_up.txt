@@ -1,0 +1,4 @@
+Bundle bundle = new Bundle();
+bundle.putString(FirebaseAnalytics.Param.CHARACTER, character);
+bundle.putLong(FirebaseAnalytics.Param.LEVEL, level);
+mFirebaseAnalytics.logEvent(FirebaseAnalytics.Event.LEVEL_UP, bundle);
