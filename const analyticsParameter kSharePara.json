@@ -1,0 +1,8 @@
+const analytics::Parameter kShareParameters[] = {
+  analytics::Parameter(analytics::kParameterContentID, contentId),
+  analytics::Parameter(analytics::kParameterContentType, contentType),
+};
+analytics::LogEvent(
+  analytics::kEventShare, kShareParameters,
+  sizeof(kShareParameters) /
+  sizeof(kShareParameters[0]));

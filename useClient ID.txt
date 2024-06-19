@@ -1,0 +1,8 @@
+Client ID
+1049906149317-kuc1ort8mqvohc5ff58qtlo60h45rcfq.apps.googleusercontent.com
+Client secret
+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
+Creation date
+March 28, 2024 at 8:56:19 PM GMT-4
+Status
+ Enabled

@@ -1,0 +1,22 @@
+import coinbase
+
+# Create a client instance
+client = coinbase.Client(api_key="YOUR_API_KEY", api_secret="8fb7c30a-1927-49de-9ef6-e3493dfea39a")
+
+# Make an API call
+response = client.get_accounts()
+
+# Print the response
+print(response)
+
+
+
+projects/gtm-kqqwvx2-zgi2z/locations/us-central1/blockchainNodes/nodoubtz-node service url
+
+
+projects/gtm-kqqwvx2-zgi2z/locations/us-central1/blockchainNodes/my-node
+
+
+https://my-gateway-smart-ga4.us-central1.gateway.dev
+
+

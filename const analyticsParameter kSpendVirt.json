@@ -1,0 +1,9 @@
+const analytics::Parameter kSpendVirtualCurrencyParameters[] = {
+  analytics::Parameter(analytics::kParameterItemName, itemName),
+  analytics::Parameter(analytics::kParameterValue, value),
+  analytics::Parameter(analytics::kParameterVirtualCurrencyName, virtualCurrencyName),
+};
+analytics::LogEvent(
+  analytics::kEventSpendVirtualCurrency, kSpendVirtualCurrencyParameters,
+  sizeof(kSpendVirtualCurrencyParameters) /
+  sizeof(kSpendVirtualCurrencyParameters[0]));

@@ -1,0 +1,8 @@
+const analytics::Parameter kLevelUpParameters[] = {
+  analytics::Parameter(analytics::kParameterCharacter, character),
+  analytics::Parameter(analytics::kParameterLevel, level),
+};
+analytics::LogEvent(
+  analytics::kEventLevelUp, kLevelUpParameters,
+  sizeof(kLevelUpParameters) /
+  sizeof(kLevelUpParameters[0]));

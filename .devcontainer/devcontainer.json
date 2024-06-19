@@ -1,0 +1,6 @@
+Welcome to Cloud Shell! Type "help" to get started.
+Your Cloud Platform project in this session is set to gtm-kqqwvx2-zgi2z.
+Use “gcloud config set project [PROJECT_ID]” to change to a different project.
+shanflet68@cloudshell:~ (gtm-kqqwvx2-zgi2z)$ curl -s https://api.developer.coinbase.com/rpc/v1/base/07wA865qq-c_9hrX19v9ZWS8aKlTTPec -H "Content-Type: application/json" -d '{"jsonrpc": "2.0", "id": 1, "method": "pm_getPaymasterStubData", "params": [{"sender":"0x0000000000000000000000000000000000000000","nonce":"0x0","initCode":"0x","callData":"0x","callGasLimit":"0x0","verificationGasLimit":"0x0","preVerificationGas":"0x0","maxFeePerGas":"0x0","maxPriorityFeePerGas":"0x0","paymasterAndData":"0x","signature":"0x"},"0x5FF137D4b0FDCD49DcA30c7CF57E578a026d2789","0x2105",{}]}'
+{"id":1,"jsonrpc":"2.0","result":{"paymasterAndData":"0xa270ef92c1e11f1c1f95753c2e56801e8125fa830000663568de000000000000000000000000021e19e0c9bab240000000fffffffffffffffffffffffffffffff0000000000000000000000000000000007aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa1c","preVerificationGas":"0x0","verificationGasLimit":"0x0","callGasLimit":"0x0"}}shanflet68@cloudshell:~ (gtm-kqqwvx2-zgi2z)$ 
+
